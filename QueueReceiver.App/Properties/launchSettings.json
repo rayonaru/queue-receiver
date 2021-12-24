@@ -1,0 +1,19 @@
+﻿{
+  "profiles": {
+    "Run (dev)": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    },
+    "Run (prod)": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Production"
+      }
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

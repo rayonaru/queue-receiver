@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/QueueReceiver.App/bin/Debug/netcoreapp3.1/QueueReceiver.App.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/QueueReceiver.App",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        }
+    ]
+}
